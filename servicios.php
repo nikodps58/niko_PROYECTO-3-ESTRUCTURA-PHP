@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="./assets/css/servicios.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./servicios.html">SERVICIOS</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-        </ul>
-    </nav>
+
+    <?php
+        include "./php/_nav.php"
+    ?>
+    
     <header>
-        <h1>PÁGINA DE SERVICIOS</h1>
+        <h1>NUESTROS SERVICIOS</h1>
         <div>            
             <p>Contenido exclusivo de la página de servicios</p>
         </div>

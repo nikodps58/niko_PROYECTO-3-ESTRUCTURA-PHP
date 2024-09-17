@@ -21,9 +21,10 @@ nav{
         a{
             color: config.$color00;
             font-family: config.$fuente02;
-            font-size: 1.5rem;
-        }
-    }    
+            //font-size: 1.5rem;
+            font-size: clamp(0.9rem, 1.5vw, 1.3rem); 
+        }    
+    }
 }
 
 header{

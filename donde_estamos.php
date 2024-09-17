@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PÁGINA DE CONTACTO CON CONTENIDO DINÁMICO EN PHP</title>
-    <link rel="stylesheet" href="./assets/css/contacto.min.css">
+    <link rel="stylesheet" href="./assets/css/donde_estamos.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./servicios.html">SERVICIOS</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-        </ul>
-    </nav>
+    <?php
+        include "./php/_nav.php"
+    ?>
+    
     <header>
-        <h1>PÁGINA DE CONTACTO</h1>
+        <h1>DONDE ESTAMOS</h1>
         <div>
             <p>Contenido exclusivo de la página de contacto</p>
         </div>

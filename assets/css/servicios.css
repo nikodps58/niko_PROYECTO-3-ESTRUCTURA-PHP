@@ -49,12 +49,13 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
-  column-gap: 2rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }
 nav ul a {
   color: white;
   font-family: "poppins";
-  font-size: 1.5rem;
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
 }
 
 header {
