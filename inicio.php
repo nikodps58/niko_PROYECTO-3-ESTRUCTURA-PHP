@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PÁGINA DE SERVICIOS CON CONTENIDO DINÁMICO EN PHP</title>
-    <link rel="stylesheet" href="./assets/css/servicios.min.css">
+    <title>PÁGINA DE INICIO CON CONTENIDO DINÁMICO EN PHP</title>
+    <link rel="stylesheet" href="./assets/css/inicio.min.css">
 </head>
 <body>
 
@@ -13,13 +13,14 @@
     ?>
     
     <header>
-        <h1>NUESTROS SERVICIOS</h1>
-        <div>            
-            <p>Contenido exclusivo de la página de servicios</p>
+        <h1>PÁGINA DE INICIO </h1>
+        <div>
+            <p>Contenido exclusivo de la página de inicio</p>
         </div>
-    </header>
+    </header>    
 </body>
 <?php
     include "./php/_footer.php"
 ?>
+
 </html>

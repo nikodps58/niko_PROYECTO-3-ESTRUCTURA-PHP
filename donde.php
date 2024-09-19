@@ -18,4 +18,7 @@
         </div>
     </header>
 </body>
+<?php
+    include "./php/_footer.php"
+?>
 </html>
